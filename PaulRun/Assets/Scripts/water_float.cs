@@ -16,13 +16,13 @@ public class water_float : MonoBehaviour {
 		// Wasserfloat oben
 		if (startMovement == true) {
 			if (waterUp == true) {
-					transform.Translate (new Vector3 (0, 0.1f, 0) * Time.deltaTime);
+					transform.Translate (new Vector3 (0, 0.05f, 0) * Time.deltaTime);
 					if (transform.position.y >= 0f) {
 							waterUp = false;
 					}
 			} else if (waterUp == false) {
-					transform.Translate (new Vector3 (0, -0.1f, 0) * Time.deltaTime);
-					if (transform.position.y <= -0.2f) {
+					transform.Translate (new Vector3 (0, -0.05f, 0) * Time.deltaTime);
+					if (transform.position.y <= -0.1f) {
 							waterUp = true;
 					}
 			}
