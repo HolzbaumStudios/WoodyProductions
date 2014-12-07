@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\water_float.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\play_quit.cs">
     <Files>
+      <File FileName="Assets\Scripts\play_sound.cs" Line="4" Column="42" />
       <File FileName="Assets\Scripts\water_float.cs" Line="19" Column="47" />
+      <File FileName="Assets\Scripts\play_quit.cs" Line="4" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
