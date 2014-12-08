@@ -15,15 +15,14 @@ public class play_quit : MonoBehaviour {
 
 
 	public void changeScene (string PlayGame){
-		StartCoroutine (StartSound ());
-		Application.LoadLevel (PlayGame);
+		StartCoroutine (StartSound (PlayGame));
 	}
 
-	IEnumerator StartSound () {
+	IEnumerator StartSound (string PlayGame) {
 		audio.Play();
-		while (audio.isPlaying) {
-			yield return new WaitForSeconds(audio.clip.length);
-		}
+		yield return new WaitForSeconds(audio.clip.length);
+
+		Application.LoadLevel (PlayGame);
 	}
 
 
